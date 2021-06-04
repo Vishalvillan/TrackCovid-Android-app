@@ -99,7 +99,7 @@ public class AffectedCountries extends AppCompatActivity {
                             JSONArray jsonArray=new JSONArray(response);
                             for (int i=0;i<jsonArray.length();i++){
 
-                                JSONObject jsonObject=jsonArray.getJSONObject(i);
+                                JSONObject  jsonObject=jsonArray.getJSONObject(i);
 
                                 String countryName=jsonObject.getString("country");
                                 String cases=jsonObject.getString("cases");
